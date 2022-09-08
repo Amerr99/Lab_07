@@ -41,10 +41,10 @@ class _HomeState extends State<Home> {
               height: 150,
               child: Container(
                 alignment: Alignment.center,
-                margin: EdgeInsets.all(20),
-                width: 50,
+                margin: EdgeInsets.all(10),
+                width: 100,
                 color: Color.fromARGB(255, 19, 1, 182),
-                child: Text("THIS IS ROCKET LEAGUE!", style: TextStyle(fontFamily: "Pacifico",fontSize: 40,color: Colors.white),),
+                child: Text("THIS IS ROCKET LEAGUE!", style: TextStyle(fontFamily: "Pacifico",fontSize: 32,color: Colors.white),),
               ),
             ),
             Container(
@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
                     child: Text("enter your age",style: TextStyle(color: Colors.white,fontSize: 24),),
                   ),
                   RadioListTile(
-                    title: Text("Above 18",style :TextStyle(color: Color.fromARGB(255, 208, 5, 5),fontSize: 16)),
+                    title: Text("Above 18",style :TextStyle(color: Color.fromARGB(255, 173, 3, 3),fontSize: 16)),
                     secondary: Icon(Icons.man),
                     value: "above 18",
                     groupValue: age,
@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
                     },
                   ),
                   RadioListTile(
-                    title: Text("Under 18",style :TextStyle(color: Colors.blue,fontSize: 16)),
+                    title: Text("Under 18",style :TextStyle(color: Color.fromARGB(255, 3, 27, 240),fontSize: 16)),
                     secondary: Icon(Icons.man),
                     value: "under 18",
                     groupValue: age,
